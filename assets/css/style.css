@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,700");
+body {
+  background-color: #FFFFFF;
+  font-family: 'Oswald', sans-serif; }
+
+.logo-contain {
+  max-width: 65px;
+  margin: 5px auto 0; }
+
+.nav {
+  justify-content: center;
+  margin: 5px auto; }
+  .nav .nav-item a {
+    color: black;
+    font-weight: 700; }
+    .nav .nav-item a:hover {
+      color: grey; }
+
+#carousel-home .carousel-caption {
+  bottom: auto;
+  top: 50%;
+  transform: translate(0, -50%); }
+  #carousel-home .carousel-caption h2 {
+    font-size: 2.5rem; }
+  #carousel-home .carousel-caption p {
+    font-size: 1.8rem; }
+
+.products {
+  padding: 40px 0; }
+
+.products .row {
+  padding: 0 15px; }
+
+@media only screen and (min-width: 768px) {
+  #carousel-home .carousel-caption h2 {
+    font-size: 5.5rem; }
+  #carousel-home .carousel-caption p {
+    font-size: 2rem; }
+
+  .products .row {
+    padding: 0; } }
+
+/*# sourceMappingURL=style.css.map */
