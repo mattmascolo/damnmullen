@@ -29,7 +29,8 @@ body {
   padding: 40px 0; }
 
 .products .row {
-  padding: 0 15px; }
+  padding: 0 15px;
+  margin: 0; }
 
 @media only screen and (min-width: 768px) {
   #carousel-home .carousel-caption h2 {
